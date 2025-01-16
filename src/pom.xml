@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>  
 
     <groupId>com.example</groupId>    
-    <artifactId>my-helloworld</artifactId>
-    <version>1.0.0</version>
+    <artifactId>my_project</artifactId>
+    <version>1.0.${env.GITHUB_RUN_NUMBER}</version>
     <packaging>war</packaging>
 <distributionManagement>
     <repository>
